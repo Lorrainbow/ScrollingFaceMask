@@ -8,10 +8,18 @@ from colorsys import hsv_to_rgb
 from PIL import Image, ImageDraw, ImageFont
 
     
+#for the Adafruit NeoMatrix grid
 def getIndex(x, y):        
     x = display_width-x-1    
     return (x*8)+y
-    
+
+#use for the flex grid
+def getIndex2(x, y):
+    x = display_width-x-1
+    if x % 2 != 0:
+        return (x*8)+y
+    else:
+        return (x*8)+(7-y)
     
 def printOnScreen(text):    
     # Measure the size of the text
