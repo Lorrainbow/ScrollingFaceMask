@@ -25,3 +25,10 @@ In each file, check out the function getIndex and getIndex2. The main code calls
 - the PC uses Dragon Naturally Speaking software to transcribe your speech to text
 - the PC sends this text via Bluetooth to a Wemos LOLIN32 using a program called Putty
 - the Wemos LOLIN32 scrolls the text across the RGB LED matrix inside your facemask 
+
+**sketch_aug19a** is the main file
+
+> speeds up the scrolling
+< slows the scrolling down
+\] increases the brightness
+\[ decreases the brightness
