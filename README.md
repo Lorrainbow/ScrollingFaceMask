@@ -10,10 +10,11 @@ The project is split into two
 - scrolls the transcribed text across an RGB LED matrix attached to the raspberry pi
 
 In each file, check out the function getIndex and getIndex2. The main code calls getIndex but which one you use depends on the layout of your grid
-TestFont - scrolls text across the grid
-microphoneTest - uses the free GoogleAPI to test the microphone. Prints what it thinks you said to the screen
-microphoneTestWithLights - uses the free GoogleAPI to test the microphone. Prints what it thinks you said to the screen and scrolls across the facemask. 
-GoogleCloudWorkingFromMic - uses the paid for GoogleAPI. You will need a key to get this working. Setup your own key using the Google Cloud platform.
+
+**TestFont** scrolls text across the grid
+**microphoneTest** uses the free GoogleAPI to test the microphone. Prints what it thinks you said to the screen
+**microphoneTestWithLights** uses the free GoogleAPI to test the microphone. Prints what it thinks you said to the screen and scrolls across the facemask. 
+**GoogleCloudWorkingFromMic** uses the paid for GoogleAPI. You will need a key to get this working. Setup your own key using the Google Cloud platform.
 
 
 ## Wemos LOLIN32 + Dragon Naturally Speaking
